@@ -4,7 +4,7 @@ from data_engine import get_trend_data
 
 # Page Config
 st.set_page_config(page_title="2026 Trend Tracker", layout="wide")
-st.title("🚀 2026 Trend-Tracker Dashboard")
+st.title("🚀 2026 Trend-Tracker Dashboard") 
 
 # Sidebar for Inputs
 st.sidebar.header("Settings")
