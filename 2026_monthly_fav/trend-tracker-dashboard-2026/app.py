@@ -21,7 +21,7 @@ if st.button("Sync Live Trends"):
     with col1:
         st.subheader("Interest Over Time")
         fig = px.line(df, labels={"value": "Interest", "date": "Timeline"})
-        st.plotly_chart(fig, use_container_width=False)
+        st.plotly_chart(fig, use_container_width=True)
         
     with col2:
         st.subheader("Trend Breakdown")
